@@ -1,0 +1,13 @@
+POST  http://localhost:5000/soma
+Content-Type: application/json
+
+{
+
+"numero1":299,
+"numero2": 1
+
+}
+
+###
+
+GET http://localhost:5000/calculos
