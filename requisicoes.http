@@ -11,3 +11,18 @@ Content-Type: application/json
 ###
 
 GET http://localhost:5000/calculos
+
+###
+
+DELETE http://localhost:5000//deletar/29b9aba7-ecee-495f-8228-3280222c84fd
+###
+
+PUT http://localhost:5000/editar/ff6785a9-bf84-4e21-9f69-0e6b076d27e4
+Content-Type: application/json
+
+{
+
+"numero1":5,
+"numero2": 8
+
+}
